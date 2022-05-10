@@ -1,0 +1,20 @@
+.actionbar {
+
+    &__row {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    &__spellslot {
+        height: 60px;
+        width: 60px;
+        margin: 0px 2px;
+        border: 1px solid black;
+
+        text-align: end;
+    }
+    &__spellslot:hover {
+        border: 3px solid gold;
+        color: gold;
+    }
+}
