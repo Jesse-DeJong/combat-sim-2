@@ -1,0 +1,65 @@
+@import "../variables/var.module.scss";
+
+.unitbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: $unitframeHeight;
+    width: $unitframeWidth;
+    border: 1px solid black;
+}
+
+
+// Unitframe - Class Colours
+#warrior {
+    background-color: $warrior;
+}
+
+#mage {
+    background-color: $mage;
+}
+
+#warlock {
+    background-color: $warlock;
+}
+
+#shaman {
+    background-color: $shaman;
+}
+
+#rogue {
+    background-color: $rogue;
+}
+
+#priest {
+    background-color: $priest;
+}
+
+#paladin {
+    background-color: $paladin;
+}
+
+#monk {
+    background-color: $monk;
+}
+
+#hunter {
+    background-color: $hunter;
+}
+
+#evoker {
+    background-color: $evoker;
+}
+
+#druid {
+    background-color: $druid;
+}
+
+#demonhunter {
+    background-color: $demonhunter;
+}
+
+#deathknight {
+    background-color: $deathknight;
+}

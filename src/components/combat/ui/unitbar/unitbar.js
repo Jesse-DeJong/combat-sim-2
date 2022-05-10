@@ -1,15 +1,17 @@
-import styles from "./unitbar.module.scss";
+import "../../../../styles/reset.css";
+import styles from "./unitbar.scss";
 import Resourcebar from "../resourcebar/resourcebar";
 
 const Unitbar = ({
     name,
-    resouce,
-    hitpoints
+    resource,
+    hitpoints,
+    playerClass
 }) => {
     return (
-        <section className={styles.unitbar}>
-            <h4 className={styles.name}>{name}</h4>
-            <div className={styles.div}><Resourcebar resouce={resouce}/></div>
+        <section id={playerClass} className="unitbar">
+            <h4 className={name}>{name}</h4>
+            <Resourcebar resource={resource}/>
         </section>
     )
 }

@@ -7,7 +7,8 @@ const furywarriorspellbook = [
         cost: 80,
         resource: `rage`,
         cooldown: 0,
-        sourceRate: null
+        sourceRate: null,
+        img: `https://icons.wowdb.com/retail/large/ability_warrior_rampage.jpg?43340`
     },
     {
         name: `Enrage`,
@@ -17,7 +18,8 @@ const furywarriorspellbook = [
         cost: null,
         resource: null,
         cooldown: null,
-        sourceRate: ["Bloodthirst", 30, "Rampage", 100]
+        sourceRate: ["Bloodthirst", 30, "Rampage", 100],
+        img: `https://icons.wowdb.com/retail/large/spell_shadow_unholyfrenzy.jpg?43340`
     },
     {
         name: `Bloodthirst`,
@@ -27,7 +29,8 @@ const furywarriorspellbook = [
         cost: -8,
         resource: `rage`,
         cooldown: 4500,
-        sourceRate: null
+        sourceRate: null,
+        img: `https://icons.wowdb.com/retail/large/spell_nature_bloodlust.jpg?43340`
     },
     {
         name: `Raging Blow`,
@@ -37,7 +40,8 @@ const furywarriorspellbook = [
         cost: 1,
         resource: `charge`,
         cooldown: 8000,
-        sourceRate: ["Raging Blow", 20]
+        sourceRate: ["Raging Blow", 20],
+        img: `https://icons.wowdb.com/retail/large/warrior_wild_strike.jpg?43340`
     },
     {
         name: `Whirlwind`,
@@ -47,7 +51,8 @@ const furywarriorspellbook = [
         cost: 30 - 3,
         resource: `rage`,
         cooldown: 0,
-        sourceRate: null
+        sourceRate: null,
+        img: `https://icons.wowdb.com/retail/large/ability_whirlwind.jpg?43340`
     }
 ];
 

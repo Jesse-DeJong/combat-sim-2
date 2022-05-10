@@ -1,12 +1,10 @@
-import styles from "./resourcebar.module.scss";
+import styles from "./resourcebar.scss";
 
 const Resourcebar = ({
     resource
 }) => {
     return (
-        <section id="rage" className={styles.resourcebar}>
-            {resource}
-        </section>
+        <div id={resource} className="resourcebar"></div>
     )
 }
 

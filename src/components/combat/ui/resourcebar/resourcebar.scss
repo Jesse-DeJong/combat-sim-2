@@ -1,0 +1,19 @@
+@import "../variables/var.module.scss";
+
+.resourcebar {
+    height: $resourceframeHeight;
+    width: $unitframeWidth;
+    border-top: 1px solid black;
+}
+
+#rage {
+    background-color: $rage;
+}
+
+#mana {
+    background-color: $mana;
+}
+
+#energy {
+    background-color: $energy;
+}

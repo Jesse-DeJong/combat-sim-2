@@ -13,6 +13,7 @@ const Actionbar = ({
                     name={"Warrior"}
                     hitpoints={100}
                     resource={"rage"}
+                    playerClass={"warrior"}
                     />
                 </li>
                 <li className={styles.actionbar__spellslot} id="1">1</li>
@@ -32,6 +33,7 @@ const Actionbar = ({
                     name={"Mage"}
                     hitpoints={100}
                     resource={`mana`}
+                    playerClass={"mage"}
                     />
                 </li>
             </ul>

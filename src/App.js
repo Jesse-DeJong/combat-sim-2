@@ -8,7 +8,7 @@ function App() {
     <Router>
       {/* <Nav /> */}
       <Routes>
-        <Route exact path="/" element={<Combat />} />
+        <Route exact path="/react-gh-pages" element={<Combat />} />
       </Routes>
     </Router>
   );
