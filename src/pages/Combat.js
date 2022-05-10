@@ -7,9 +7,7 @@ import Actionbar from "../components/combat//ui/actionbar/actionbar";
 
 const Combat = () => {
     return (
-
         <section className={styles.combat}>
-
             <Actionbar 
             spellbook={furywarriorspellbook}
             />
